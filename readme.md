@@ -19,6 +19,8 @@
 2.  Layers can be setup using the instructions here
      https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
      See the appbase directory for the structure and contents
+     
+     Use appbase-java.zip to be used as sql connector layer with lambda function in aws console
  
 3.   AWSLambdaVPCAccessExecutionRole policy must be attached to the lambda-multirole to access
   resources that are attached to the VPC such as an RDS instance
