@@ -1,9 +1,4 @@
-/**
- * @author Nirmallya Mukherjee
- * 
- * Note: this is a sample code and is provided as part of training without any warranty.
- * You can use this code in any way at your own risk. 
- */
+
 
 package com.amazonaws.lambda.demo;
 
