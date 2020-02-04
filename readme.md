@@ -51,10 +51,10 @@
         Do not upload with the SAM file, otherwise the lambda may not fire and error out by saying
         that LambdaFunctionHandler is missing!
 	
-10. 	private static final String URL = System.getenv("CONNECT_IP_DNS");
-	private static final String DB = System.getenv("DB_NAME");
-	private static final String UID = System.getenv("USER_ID");
-	private static final String PWD = System.getenv("PWD");
+10. 	"CONNECT_IP_DNS"
+	"DB_NAME"
+	"USER_ID"
+	"PWD"
 	
 	Enter these values in environmen  variables sestion in lambda function in aws console
  
