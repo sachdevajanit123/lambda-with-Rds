@@ -1,5 +1,5 @@
 	 
-     RDS Instance in AWS:----
+    RDS Instance in AWS:----
 	 
 	Create the RDS instance in aws console as follows -
     MySQL, 8.0.LATEST, Free Tier, DBInstance=flipbasket, credentials=root/password
