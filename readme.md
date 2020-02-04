@@ -57,5 +57,5 @@
 	"USER_ID",
 	"PWD"
 	
-	Enter these values in environmen  variables sestion in lambda function in aws console
+	Enter these values in environment  variables section in lambda function in aws console
  
