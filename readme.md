@@ -8,6 +8,9 @@
     No backups, no monitoring, no minor version upgrade
     Create the DB
     Once DB is ready modify the rds-sg cidr=0.0.0.0/0
+    
+    Once the instance is created, connect to it from an EC2 instance after installing the MySQL client
+    and create the schema using employees.sql
 
 
 
@@ -39,19 +42,17 @@
 6.   Setup the following JSON as the test case
     {"table": "employees","order_by": "birth_date"}
   
- 7.  Once the instance is created, connect to it from an EC2 instance after installing the MySQL client
-  and create the schema using employees.sql
   
- 8.   Once it all starts to work see the number of connections in RDS console as one in monitoring tab.
+7.   Once it all starts to work see the number of connections in RDS console as one in monitoring tab.
 		Do not make any more invocations; wait for about 25mins and see the connections drop to 0
   
-9.   Note-> Upload the function and then go to the console->"Export function"->"Download AWS SAM File"!
+8.   Note-> Upload the function and then go to the console->"Export function"->"Download AWS SAM File"!
         Now use this SAM to run and test locally! You do not have to author the SAM from scratch.
         Just ensure that the test cases are updated otherwise the default test case will fail.
         Do not upload with the SAM file, otherwise the lambda may not fire and error out by saying
         that LambdaFunctionHandler is missing!
 	
-10. 	
+9. 	
 	"CONNECT_IP_DNS",
 	"DB_NAME",
 	"USER_ID",
