@@ -15,6 +15,10 @@
 
 1.  Create this project in Eclipse using the plugin and selecting "New AWS Lambda Java Project"
 	and in the event dropdown select "Custom"
+
+	configure these keys from aws in eclipse
+	*aws_access_key_id
+	*aws_secret_access_key
   
 2.  Layers can be setup using the instructions here
      https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
@@ -46,4 +50,11 @@
         Just ensure that the test cases are updated otherwise the default test case will fail.
         Do not upload with the SAM file, otherwise the lambda may not fire and error out by saying
         that LambdaFunctionHandler is missing!
+	
+10. 	private static final String URL = System.getenv("CONNECT_IP_DNS");
+	private static final String DB = System.getenv("DB_NAME");
+	private static final String UID = System.getenv("USER_ID");
+	private static final String PWD = System.getenv("PWD");
+	
+	Enter these values in environmen  variables sestion in lambda function in aws console
  
