@@ -51,9 +51,10 @@
         Do not upload with the SAM file, otherwise the lambda may not fire and error out by saying
         that LambdaFunctionHandler is missing!
 	
-10. 	"CONNECT_IP_DNS"
-	"DB_NAME"
-	"USER_ID"
+10. 	
+	"CONNECT_IP_DNS",
+	"DB_NAME",
+	"USER_ID",
 	"PWD"
 	
 	Enter these values in environmen  variables sestion in lambda function in aws console
